@@ -1,3 +1,4 @@
+Sitemap: http://elhaitali.com/sitemap.xml
 User-Agent: *
 Allow: /
 
