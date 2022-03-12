@@ -910,8 +910,8 @@ section {
   background-color: #1da851;
   border-color: #1da851;
 }
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   .social-saring-icons {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 }
