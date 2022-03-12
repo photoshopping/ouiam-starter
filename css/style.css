@@ -900,16 +900,6 @@ section {
   border-color: #046293;
 }
 
-.resp-sharing-button--whatsapp {
-  background-color: #25d366;
-  border-color: #25d366;
-}
-
-.resp-sharing-button--whatsapp:hover,
-.resp-sharing-button--whatsapp:active {
-  background-color: #1da851;
-  border-color: #1da851;
-}
 @media (max-width: 768px) {
   .social-saring-icons {
     margin-top: 3rem;
