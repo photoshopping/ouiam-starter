@@ -145,12 +145,12 @@ section {
   height: 50rem;
   width: 50rem;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  transition: all 0.5s ease-in-out;
 }
 .home .image:hover img {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   filter: grayscale(100%);
-  transition: 0.5s ease-in-out;
 }
 .home .content {
   -webkit-box-flex: 1;
@@ -908,5 +908,8 @@ section {
 @media (max-width: 768px) {
   .social-saring-icons {
     margin-top: 3rem;
+  }
+  .home {
+    margin-top: 2rem;
   }
 }
