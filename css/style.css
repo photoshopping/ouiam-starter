@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -165,7 +166,8 @@ section {
 }
 
 .home .content span {
-  font-size: 3rem;
+  font-family: "Cookie", cursive;
+  font-size: 5rem;
   color: crimson;
   padding: 0.5rem 0;
   display: block;
@@ -665,7 +667,8 @@ section {
     font-size: 3rem;
   }
   .home .content span {
-    font-size: 2.5rem;
+    font-family: "Cookie", cursive;
+    font-size: 5rem;
   }
   .contact .row form .inputBox input {
     width: 100%;
@@ -690,8 +693,9 @@ section {
   display: flex;
   justify-content: center;
 }
-.social-saring-icons h2 {
-  font-size: 3rem;
+.social-saring-icons h2 span {
+  font-family: "Cookie", cursive;
+  font-size: 5rem;
   color: crimson;
   padding: 0 0 1rem 0;
   display: block;
