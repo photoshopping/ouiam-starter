@@ -917,3 +917,86 @@ section {
     margin-top: 2rem;
   }
 }
+
+/* Animated Circles */
+.custom-animated-circles {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  width: 500px;
+  height: 500px;
+  z-index: -10;
+  transform: translate3d(-55%, 25%, 0);
+}
+@media (min-width: 768px) {
+  .custom-animated-circles {
+    left: 30%;
+    bottom: 40%;
+  }
+}
+
+.custom-animated-circles .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  transform: translate3d(-50%, -50%, 0);
+  animation-name: customAnimatedCircles;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-duration: 2.5s;
+  animation-delay: 500ms;
+}
+
+.custom-animated-circles .circle:nth-child(2) {
+  width: 70%;
+  height: 70%;
+  animation-delay: 1000ms;
+}
+
+.custom-animated-circles .circle:nth-child(3) {
+  width: 90%;
+  height: 90%;
+  animation-delay: 1500ms;
+}
+
+.custom-animated-circles .circle:nth-child(4) {
+  width: 110%;
+  height: 110%;
+  animation-delay: 2000ms;
+}
+
+.custom-animated-circles.custom-animated-circles-pos-2 {
+  bottom: auto;
+  top: 0;
+  transform: translate3d(-55%, -25%, 0);
+}
+
+.custom-animated-circles.custom-animated-circles-pos-3 {
+  bottom: auto;
+  left: auto;
+  right: 0;
+  transform: translate3d(65%, -50%, 0);
+  top: 0;
+}
+
+@keyframes customAnimatedCircles {
+  0% {
+    opacity: 0;
+    transform: translate3d(-50%, -50%, 0) scale(0.8);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translate3d(-50%, -50%, 0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(-50%, -50%, 0) scale(1.1);
+  }
+}
