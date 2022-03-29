@@ -51,6 +51,9 @@ section {
   text-transform: uppercase;
   color: crimson;
 }
+.inline-header {
+  display: inline-block;
+}
 
 .btn {
   display: inline-block;
@@ -689,6 +692,11 @@ section {
 .social-saring-icons {
   margin-top: -6rem;
 }
+.sharing-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .social-saring-icons .icons {
   display: flex;
   justify-content: center;
@@ -698,10 +706,6 @@ section {
   font-size: 5rem;
   color: crimson;
   padding: 0 0 1rem 0;
-  display: block;
-  text-align: center;
-  margin: auto;
-  text-align: center;
 }
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
