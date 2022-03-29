@@ -652,6 +652,9 @@ section {
 }
 
 @media (max-width: 768px) {
+  html {
+    overflow: hidden;
+  }
   .heading {
     font-size: 12vw;
   }
