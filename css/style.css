@@ -653,7 +653,7 @@ section {
 
 @media (max-width: 768px) {
   html {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .heading {
     font-size: 12vw;
