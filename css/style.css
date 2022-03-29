@@ -637,13 +637,17 @@ section {
   background: #fff;
   color: #0d0d0d;
 }
-
+@media (min-width: 768px) {
+  html {
+    overflow-y: hidden;
+  }
+}
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
   }
   section {
-    padding: 3rem 2rem;
+    padding: 2rem;
   }
 }
 
@@ -687,6 +691,9 @@ section {
   }
   .social-saring-icons {
     margin-top: 2rem;
+  }
+  section {
+    padding: 1rem;
   }
 }
 
@@ -918,9 +925,6 @@ section {
 @media (max-width: 768px) {
   .social-saring-icons {
     margin-top: 3rem;
-  }
-  .home {
-    margin-top: 2rem;
   }
 }
 
