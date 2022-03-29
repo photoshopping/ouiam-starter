@@ -6,8 +6,8 @@ greeting.style.color = "white";
 greeting.style.fontWeight = "bold";
 
 if (time < 18) {
-  greeting.innerHTML = "Bonjour! 👋";
+  greeting.innerHTML = "Bonjour!";
 }
 if (time > 18) {
-  greeting.innerHTML = "Bonsoir! 👋";
+  greeting.innerHTML = "Bonsoir!";
 }
