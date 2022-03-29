@@ -698,6 +698,9 @@ section {
   section {
     padding: 1rem;
   }
+  .custom-animated-circles {
+    display: none;
+  }
 }
 
 /* social media sharing */
