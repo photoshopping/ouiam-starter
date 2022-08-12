@@ -687,6 +687,13 @@ section {
     margin-bottom: 1rem;
   }
 }
+.link {
+  color: #e8b730;
+}
+.link a {
+  color: #e8b730;
+  font-weight: bold;
+}
 
 @media (max-width: 450px) {
   html {
