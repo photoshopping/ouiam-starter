@@ -36,6 +36,7 @@ body {
 }
 .text-center {
   text-align: center;
+  margin-inline: auto;
 }
 section {
   padding: 5rem 9%;
@@ -54,7 +55,9 @@ section {
   color: rgb(238, 189, 104);
 }
 .inline-header {
-  display: inline-block;
+  /* display: inline-block; */
+  margin-inline: auto;
+  text-align: center;
 }
 
 .btn {
