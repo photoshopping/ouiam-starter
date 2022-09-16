@@ -713,6 +713,7 @@ a {
   }
 }
 .link {
+  margin-bottom: 1rem;
   color: #e8b730;
 }
 .link a {
