@@ -115,6 +115,9 @@ section {
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
 }
+a {
+  color: #e8b730;
+}
 
 .navbar a i {
   color: #e8b730;
@@ -140,7 +143,7 @@ section {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 4rem;
-  min-height: calc(100vh - 6.5rem);
+  min-height: 100vh;
 }
 
 .home .image {
@@ -186,6 +189,22 @@ section {
   font-size: 1.5rem;
   color: #aaa;
   line-height: 2;
+  margin-bottom: 1.2rem;
+}
+.home .content p {
+  font-size: 1.5rem;
+  color: #aaa;
+  line-height: 2;
+  margin-bottom: 1.2rem;
+}
+.home .content ul {
+  font-size: 1.5rem;
+  color: #aaa;
+  line-height: 2;
+  list-style: none;
+}
+.home .content ul li::before {
+  content: "✏️ ";
 }
 
 .about .row {
@@ -642,7 +661,10 @@ section {
 }
 @media (min-width: 768px) {
   html {
-    overflow: hidden;
+    overflow-x: hidden;
+  }
+  .home .image {
+    margin-top: -20rem;
   }
 }
 @media (max-width: 1200px) {
@@ -699,6 +721,10 @@ section {
 }
 
 @media (max-width: 450px) {
+  .home .content p,
+  .home .content ul li {
+    font-size: 2rem;
+  }
   html {
     font-size: 50%;
   }
