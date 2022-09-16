@@ -193,13 +193,13 @@ a {
 }
 .home .content p {
   font-size: 1.5rem;
-  color: #aaa;
+  color: white;
   line-height: 2;
   margin-bottom: 1.2rem;
 }
 .home .content ul {
   font-size: 1.5rem;
-  color: #aaa;
+  color: white;
   line-height: 2;
   list-style: none;
 }
