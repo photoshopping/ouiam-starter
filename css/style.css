@@ -123,7 +123,8 @@ a {
   color: #e8b730;
 }
 
-.navbar a i {
+.navbar a i,
+.about .box i {
   color: #e8b730;
   padding-right: 0.5rem;
 }
