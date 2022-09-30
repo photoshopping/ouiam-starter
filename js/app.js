@@ -5,11 +5,11 @@ var time = d.getHours();
 greeting.style.color = "white";
 greeting.style.fontWeight = "bold";
 
-if (time < 18) {
+if (time < 14) {
   greeting.innerHTML = "Bonjour!";
   console.log("bonjour");
 }
-if (time > 18) {
+if (time > 14) {
   greeting.innerHTML = "Bonsoir!";
   console.log("bonsoir");
 }
