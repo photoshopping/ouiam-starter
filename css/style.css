@@ -22,7 +22,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: #0d0d0d;
+  background: #000b2c;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -49,10 +49,13 @@ section {
   margin-bottom: 3rem;
   text-transform: uppercase;
 }
+.headingh2 {
+  font-size: 4vw;
+}
 
 .heading span {
   text-transform: uppercase;
-  color: rgb(238, 189, 104);
+  color: #e8b730;
 }
 .inline-header {
   /* display: inline-block; */
@@ -106,7 +109,7 @@ section {
 .navbar a {
   padding: 2rem;
   font-size: 2rem;
-  background: #1a1a1a;
+  background: #000b2c;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -114,6 +117,7 @@ section {
   text-align: center;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
+  border-top: 1px solid #0074b3;
 }
 a {
   color: #e8b730;
@@ -226,7 +230,7 @@ a {
 }
 
 .about .row .info-container h1 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: #fff;
   text-transform: uppercase;
   padding-bottom: 1rem;
@@ -256,8 +260,7 @@ a {
 }
 
 .about .row .info-container .box-container .box h3 span {
-  color: #aaa;
-  font-weight: lighter;
+  color: #03cafc;
 }
 
 .about .row .count-container {
@@ -278,13 +281,13 @@ a {
   flex: 1 1 20rem;
   padding: 3rem 4rem;
   border-radius: 0.5rem;
-  background: #1a1a1a;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+  background: #001145;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 116, 179, 0.8);
+  box-shadow: -0.5rem 0.5rem 1rem rgba(0, 116, 179, 0.8);
 }
 
 .about .row .count-container .box h3 {
-  font-size: 5rem;
+  font-size: 3rem;
   color: #e8b730;
 }
 
@@ -343,12 +346,15 @@ a {
   -ms-flex: 1 1 40rem;
   flex: 1 1 40rem;
   margin-left: 2rem;
-  padding-top: 0;
+  padding-top: 1rem;
   padding-bottom: 0;
   padding-left: 3.5rem;
   padding-bottom: 3rem;
-  border-left: 0.1rem solid #aaa;
+  border-top: 0.1rem solid rgba(0, 116, 179);
   position: relative;
+}
+.education .box-container .box:last-child {
+  border-top: none;
 }
 
 .education .box-container .box i {
@@ -370,7 +376,7 @@ a {
   color: #fff;
   border-radius: 5rem;
   padding: 0.5rem 1.5rem;
-  background: #1a1a1a;
+  background: transparent;
 }
 
 .education .box-container .box h3 {
@@ -683,6 +689,7 @@ a {
   .heading {
     font-size: 12vw;
   }
+
   .navbar a i {
     padding: 0;
   }
@@ -1047,4 +1054,7 @@ a {
     opacity: 0;
     transform: translate3d(-50%, -50%, 0) scale(1.1);
   }
+}
+footer {
+  padding-bottom: 8rem;
 }
