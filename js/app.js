@@ -7,7 +7,9 @@ greeting.style.fontWeight = "bold";
 
 if (time < 18) {
   greeting.innerHTML = "Bonjour!";
+  console.log("bonjour");
 }
 if (time > 18) {
   greeting.innerHTML = "Bonsoir!";
+  console.log("bonsoir");
 }
