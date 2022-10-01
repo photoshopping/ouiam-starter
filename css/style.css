@@ -311,7 +311,7 @@ a {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
   border-radius: 0.5rem;
-  background: #1a1a1a;
+  background: #001145;
 }
 
 .skills .box-container .box:hover {
@@ -319,7 +319,7 @@ a {
 }
 
 .skills .box-container .box:hover h3 {
-  color: #0d0d0d;
+  color: #001145;
 }
 
 .skills .box-container .box img {
@@ -365,7 +365,7 @@ a {
   font-size: 1.7rem;
   border-radius: 50%;
   background: #e8b730;
-  color: #fff;
+  color: #001145;
   text-align: center;
   position: absolute;
   top: -1rem;
