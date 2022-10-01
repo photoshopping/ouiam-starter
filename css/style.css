@@ -34,6 +34,14 @@ body {
   background: #000b2c;
   /* padding-bottom: 6.5rem; */
 }
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+h2 {
+  text-align: center;
+  text-decoration: wavy;
+}
 .text-center {
   text-align: center;
   margin-inline: auto;
@@ -48,9 +56,11 @@ section {
   color: #fff;
   margin-bottom: 3rem;
   text-transform: uppercase;
+  margin-inline: auto;
 }
 .headingh2 {
   font-size: 4vw;
+  margin-inline: auto;
 }
 
 .heading span {
@@ -748,11 +758,19 @@ a {
 
 @media (max-width: 450px) {
   .home .content p,
-  .home .content ul li {
+  .home .content ul li,
+  .about {
     font-size: 2rem;
   }
-  html {
+  /* html {
     font-size: 50%;
+  } */
+
+  .heading,
+  .headingh2 {
+    font-size: 8vw;
+    text-align: center;
+    margin-inline: auto;
   }
   .social-saring-icons {
     margin-top: 2rem;
@@ -760,9 +778,13 @@ a {
   section {
     padding: 1rem;
   }
-  .custom-animated-circles {
-    display: none;
+  .about,
+  .education {
+    margin-inline: 1rem;
   }
+  /* .custom-animated-circles {
+    display: none;
+  } */
 }
 
 /* social media sharing */
@@ -997,7 +1019,7 @@ a {
   }
 }
 
-/* Animated Circles */
+/* Animated Circles
 .custom-animated-circles {
   position: absolute;
   left: 50%;
@@ -1072,7 +1094,7 @@ a {
     opacity: 0;
     transform: translate3d(-50%, -50%, 0) scale(1.1);
   }
-}
+} */
 footer {
   padding-bottom: 8rem;
 }
