@@ -766,7 +766,11 @@ a {
     font-size: 50%;
   } */
 
-  .heading,
+  .heading {
+    font-size: 10vw;
+    text-align: center;
+    margin-inline: auto;
+  }
   .headingh2 {
     font-size: 8vw;
     text-align: center;
@@ -781,6 +785,9 @@ a {
   .about,
   .education {
     margin-inline: 1rem;
+  }
+  .row {
+    margin-bottom: 2rem;
   }
   /* .custom-animated-circles {
     display: none;
