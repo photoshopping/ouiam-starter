@@ -393,7 +393,17 @@ a {
   color: #aaa;
   line-height: 2;
 }
-
+.education .box-container .box ul {
+  list-style: none;
+}
+.education .box-container .box li {
+  font-size: 1.5rem;
+  color: #aaa;
+  line-height: 2;
+}
+.education .box-container .box li::before {
+  content: "✏️ ";
+}
 .portfolio {
   text-align: center;
 }
