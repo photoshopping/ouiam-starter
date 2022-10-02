@@ -710,8 +710,16 @@ a {
   html {
     overflow-x: hidden;
   }
+
   .heading {
-    font-size: 12vw;
+    font-size: 4rem;
+    text-align: center;
+    margin-inline: auto;
+  }
+  .headingh2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-inline: auto;
   }
 
   .navbar a i {
