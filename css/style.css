@@ -236,6 +236,12 @@ a {
   flex-wrap: wrap;
   gap: 2rem;
 }
+.about .row p {
+  font-size: 1.7rem;
+  color: #fff;
+  padding: 1rem 0;
+  font-weight: normal;
+}
 
 .about .row .info-container {
   -webkit-box-flex: 1;
@@ -338,6 +344,7 @@ a {
 .skills .box-container .box img {
   height: 7rem;
   margin-bottom: 1rem;
+  max-width: 160px;
 }
 
 .skills .box-container .box h3 {
@@ -709,6 +716,9 @@ a {
 @media (max-width: 768px) {
   html {
     overflow-x: hidden;
+  }
+  .skills .box-container .box img {
+    max-width: 100px;
   }
   .row {
     margin-bottom: 2rem;
