@@ -1117,3 +1117,7 @@ a {
 footer {
   padding-bottom: 8rem;
 }
+footer h2 span {
+  text-align: center;
+  margin-inline: auto;
+}
