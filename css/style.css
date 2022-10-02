@@ -221,6 +221,9 @@ a {
 .home .content ul li::before {
   content: "✏️ ";
 }
+.about {
+  min-height: 100vh;
+}
 
 .about .row {
   display: -webkit-box;
@@ -758,8 +761,7 @@ a {
 
 @media (max-width: 450px) {
   .home .content p,
-  .home .content ul li,
-  .about {
+  .home .content ul li {
     font-size: 2rem;
   }
   /* html {
@@ -767,12 +769,12 @@ a {
   } */
 
   .heading {
-    font-size: 10vw;
+    font-size: 4rem;
     text-align: center;
     margin-inline: auto;
   }
   .headingh2 {
-    font-size: 8vw;
+    font-size: 3rem;
     text-align: center;
     margin-inline: auto;
   }
