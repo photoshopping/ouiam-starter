@@ -710,7 +710,9 @@ a {
   html {
     overflow-x: hidden;
   }
-
+  .row {
+    margin-bottom: 2rem;
+  }
   .heading {
     font-size: 4rem;
     text-align: center;
