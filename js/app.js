@@ -2,14 +2,14 @@ var greeting = document.getElementById("greeting");
 var d = new Date();
 var time = d.getHours();
 
-greeting.style.color = "white";
-greeting.style.fontWeight = "bold";
+//greeting.style.color = "white";
+//greeting.style.fontWeight = "bold";
 
 if (time < 14) {
-  greeting.innerHTML = "Bonjour!";
+  //greeting.innerHTML = "Bonjour!";
   console.log("bonjour");
 }
 if (time > 14) {
-  greeting.innerHTML = "Bonsoir!";
+  //greeting.innerHTML = "Bonsoir!";
   console.log("bonsoir");
 }
