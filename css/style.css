@@ -810,9 +810,9 @@ a {
   .education .box-container .box li {
     font-size: 1.8rem;
   }
+
   .education .box-container .box p,
   .education .box-container .box span {
-    text-align: justify;
     font-size: 2rem;
   }
   .heading {
