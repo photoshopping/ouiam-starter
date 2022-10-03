@@ -796,7 +796,9 @@ a {
   /* html {
     font-size: 50%;
   } */
-
+  .about .row .count-container .box h3 {
+    font-size: 2rem;
+  }
   .heading {
     font-size: 4rem;
     text-align: center;
