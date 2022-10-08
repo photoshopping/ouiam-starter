@@ -357,7 +357,7 @@ a {
 .skills .box-container .box img {
   height: 7rem;
   margin-bottom: 1rem;
-  max-width: 160px;
+  max-width: 100%;
 }
 
 .skills .box-container .box h3 {
