@@ -13,20 +13,9 @@
 <priority>1.00</priority>
 </url>
 <url>
-<loc>https://elhaitali.com/index.html</loc>
-<lastmod>2022-10-29T14:34:22+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
 <loc>https://elhaitali.com/info.html</loc>
 <lastmod>2022-10-29T14:34:22+00:00</lastmod>
 <priority>0.80</priority>
 </url>
-<url>
-<loc>https://elhaitali.com/info</loc>
-<lastmod>2022-10-29T14:34:22+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-
 
 </urlset>
