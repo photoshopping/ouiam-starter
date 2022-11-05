@@ -58,6 +58,7 @@ section {
   text-transform: uppercase;
   margin-inline: auto;
 }
+
 .headingh2 {
   font-size: 4vw;
   margin-inline: auto;
@@ -245,6 +246,19 @@ a {
 }
 .about {
   min-height: 100vh;
+}
+
+.infohead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.infohead img {
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: 0.1rem;
+  margin-inline: auto;
 }
 
 .about .row {
@@ -729,6 +743,18 @@ a {
   .home .image {
     margin-top: -20rem;
   }
+  .infohead {
+    flex-direction: row;
+    flex: 2;
+  }
+  .infohead img {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .marg0 {
+    margin-right: auto;
+  }
 }
 @media (max-width: 1200px) {
   html {
@@ -754,6 +780,7 @@ a {
     text-align: center;
     margin-inline: auto;
   }
+
   .headingh2 {
     font-size: 3rem;
     text-align: center;
