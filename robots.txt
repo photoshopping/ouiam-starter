@@ -1,4 +1,4 @@
-Sitemap: http://elhaitali.com/sitemap.xml
+Sitemap: https://elhaitali.com/sitemap.xml
 User-Agent: *
 Allow: /
 
