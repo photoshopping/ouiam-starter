@@ -173,6 +173,9 @@ a {
 .photoname {
   margin-inline: auto;
 }
+.logopro {
+  width: 200px;
+}
 .logo {
   width: 200px;
   height: 200px;
@@ -1236,6 +1239,12 @@ a {
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Animated Circles
