@@ -1247,6 +1247,10 @@ a {
   align-items: center;
   padding-right: 1rem;
 }
+.photoshop {
+  width: 120px;
+  height: 120px;
+}
 
 /* Animated Circles
 .custom-animated-circles {
