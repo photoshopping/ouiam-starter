@@ -49,10 +49,13 @@ h2 {
 section {
   padding: 4rem 4%;
 }
-
+.GoogleTag {
+  display: none;
+  visibility: hidden;
+}
 .heading {
   text-align: center;
-  font-size: 6vw;
+  font-size: 4vw;
   color: #fff;
   margin-bottom: 3rem;
   text-transform: uppercase;
@@ -60,7 +63,7 @@ section {
 }
 
 .headingh2 {
-  font-size: 4vw;
+  font-size: 3vw;
   margin-inline: auto;
 }
 .haeding3 {

@@ -177,7 +177,7 @@
     </script>
 
     <!-- Alternative title when leaving tab -->
-    <script>
+    <!-- <script>
       let previousTitle = document.title;
       window.addEventListener("blur", () => {
         previousTitle = document.title;
@@ -186,7 +186,13 @@
       window.addEventListener("focus", () => {
         document.title = previousTitle;
       });
-    </script>
+    </script> -->
+    <style>
+      .lordicon {
+        width: 150px;
+        height: 150px;
+      }
+    </style>
   </head>
 
   <!-- ****************************************************** -->
@@ -197,9 +203,10 @@
         src="https://www.googletagmanager.com/ns.html?id=GTM-KH7LPK3"
         height="0"
         width="0"
-        style="display: none; visibility: hidden"
+        class="GoogleTag"
       ></iframe
     ></noscript>
+
     <!-- End Google Tag Manager (noscript) -->
     <!-- navbar section starts  -->
 
@@ -224,12 +231,17 @@
       <div class="photoname">
         <div class="image">
           <img
-            src="./images/ouiam-elhaitali.jpeg"
+            src="./images/ouiam-elhaitali-chargée-communication.jpeg"
             alt="Ouiam El haitali, Chargée De Communication"
             title="Photo de Ouiam El haitali, Chargée De Communication"
           />
         </div>
-        <img src="/images/ouiam-elhaitali-logo.png" class="logo" />
+        <img
+          src="/images/ouiam-elhaitali-chargée-communication-logo.png"
+          class="logo"
+          title="Ouiam Elhaitali logo, Chargée De Communication"
+          alt="Ouiam Elhaitali logo, Chargée De Communication"
+        />
       </div>
 
       <div class="content">
@@ -239,7 +251,7 @@
             src="https://cdn.lordicon.com/reybmpdc.json"
             trigger="loop"
             colors="primary:#e8b730,secondary:#ffc738,tertiary:#ebe6ef,quaternary:#1b1091,quinary:#ffffff"
-            style="width: 150px; height: 150px"
+            class="lordicon"
           >
           </lord-icon>
         </div>
@@ -272,10 +284,10 @@
             à NEOMA Business school
           </h3>
           <p>
-            Je suis disponible pour une alternance à partir du 01 Septembre, qui
-            me permettra de compléter les connaissances théoriques acquises en
-            formation et développer la partie pratique dans un milieu
-            professionnel.
+            Je suis disponible pour une alternance en tant que chargée de
+            communication à partir du 01 Septembre, qui me permettra de
+            compléter les connaissances théoriques acquises en formation et
+            développer la partie pratique dans un milieu professionnel.
           </p>
           <p>
             Flexible, polyvalente et organisée, avec une forte capacité
@@ -296,15 +308,6 @@
       <div class="social-saring-icons">
         <div class="sharing-heading">
           <h2><span>Partagez!</span></h2>
-          <!-- <lord-icon
-          src="https://cdn.lordicon.com/dlkvcwcu.json"
-          trigger="hover"
-          colors="primary:#e8b730,secondary:#e8b730"
-          stroke="100"
-          scale="50"
-          style="width: 80px; height: 80px"
-        >
-        </lord-icon> -->
         </div>
         <div class="icons">
           <!-- Sharingbutton Facebook -->
