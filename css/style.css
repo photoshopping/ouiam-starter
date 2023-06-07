@@ -151,6 +151,10 @@ a {
   color: #e8b730;
   padding-right: 0.5rem;
 }
+.navbar a svg {
+  fill: #e8b730;
+  padding-right: 0.5rem;
+}
 
 .navbar a:hover {
   background: #e8b730;
@@ -159,6 +163,9 @@ a {
 
 .navbar a:hover i {
   color: #fff;
+}
+.navbar a:hover svg {
+  fill: #fff;
 }
 
 .home {
@@ -916,6 +923,9 @@ a {
   }
 
   .navbar a i {
+    padding: 0;
+  }
+  .navbar a svg {
     padding: 0;
   }
   .navbar a span {
