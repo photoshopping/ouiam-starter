@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width" initial-scale="1.0" />
 
     <title>▷ Ouiam El Hailtali - Chargée de communication</title>
+
     <!-- snow script -->
     <!-- <script
       defer
@@ -461,5 +462,20 @@
     </footer>
 
     <script src="./js/app.js"></script>
+    <!-- slutation script -->
+    <script>
+      var greeting = document.getElementById("greeting");
+      var d = new Date();
+      var time = d.getHours();
+
+      if (time < 14) {
+        greeting.innerHTML = "Bonjour!";
+        console.log("bonjour");
+      }
+      if (time > 14) {
+        greeting.innerHTML = "Bonsoir!";
+        console.log("bonsoir");
+      }
+    </script>
   </body>
 </html>
