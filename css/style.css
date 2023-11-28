@@ -213,6 +213,7 @@ a {
   flex-wrap: wrap;
   gap: 4rem;
   min-height: 100vh;
+  margin-top: 4rem;
 }
 .photoname {
   margin-inline: auto;
