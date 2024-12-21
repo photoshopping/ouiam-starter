@@ -70,7 +70,6 @@ body {
 }
 h1 {
   text-align: center;
-  text-decoration: underline;
 }
 h2 {
   text-align: center;
@@ -269,6 +268,7 @@ a {
   color: #e8b730;
   padding: 0.5rem 0;
   display: block;
+  margin-bottom: 1rem;
 }
 
 .home .content h3 {
