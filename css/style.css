@@ -243,12 +243,13 @@ a {
   transition: all 0.5s ease-in-out;
   margin-top: 5rem;
   margin-inline: auto;
+  object-fit: cover;
 }
-/* .home .image:hover img {
+.home .image:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  filter: grayscale(100%);
-} */
+  filter: sepia(60%);
+}
 .home .content {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 42rem;
